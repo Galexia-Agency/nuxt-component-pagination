@@ -36,7 +36,7 @@ plugins: [
 <template>
   <GalexiaPagination
     :page-count="pageCount"
-    :current-page="parseInt($route.params.page) || 1"
+    :current-page="currentPage"
     :go-to-page="goToPage"
   />
 </template>
